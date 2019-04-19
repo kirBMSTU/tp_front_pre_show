@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Abstract Ketnipz</title>
+    <title>Ketnipz</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="shower/themes/material/styles/styles.css">
@@ -19,13 +19,10 @@
     </header>
 
     <section class="slide" id="cover">
-        <h2>Абстрактный Ketnipz</h2>
-        <p>Потому что в игре есть Ketnipz, но название еще не придумали (c)</p>
+        <h2>DeadMoles Studio</h2>
+        <h2 class="head">Ketnipz</h2>
         <figure>
             <img class="cover" src="pictures/main.jpg" alt="Hands on the orange typewriter in a park">
-            <figcaption class="copyright right gray">
-                <a href="">© DeadMolesStudio Inc.</a>
-            </figcaption>
         </figure>
         <style>
             .gray {
@@ -39,6 +36,15 @@
             #cover h2 {
                 margin: 30px 0 0;
                 color: #444;
+                text-align: center;
+                font-size: 70px;
+                font-weight: bold;
+            }
+
+            #cover h2.head {
+                margin: 30px 0 0;
+                margin-top: 13rem; 
+                color: #ff6574;
                 text-align: center;
                 font-size: 70px;
                 font-weight: bold;
@@ -60,10 +66,9 @@
     </section>
 
     <section class="slide">
-        <h2>О нас</h2>
+        <h2 class="my-header">О нас</h2>
         <div class="columns two">
             <ul>
-                <li>DeadMolesStudio Inc.</li>
                 <li>Студенты ИУ5</li>
                 <li>Заядлые геймдеверы</li>
                 <li>Мы:
@@ -72,9 +77,12 @@
                         <li>Казанцева Ксения</li>
                         <li>Андреев Артем</li>
                     </ul>
+                <li>Наш ментор: Пучнина Анастасия</li>
+
             </ul>
-            <p><img class="we" src="pictures/we.jpg" alt=""></p>
-            <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
+            <p>
+             <img class="we" src="pictures/we.jpg" alt="">
+         DeadMolesStudio Inc.</p>
         </div>
         <style>
             .we {
@@ -87,50 +95,85 @@
                 color: #f0aaa7;
             }
             .slide a.game-link-2 {
-                position: absolute;
+              /*  position: absolute;
                 bottom: 5px;
-                right: 100px;
+                right: 100px;*/
+                text-decoration: none;
                 color: #f0aaa7;
+                margin-bottom: 1rem: 
             }
             .slide h2.my-header {
                 color: #f0aaa7;
                 font-weight: bold;
             }
 
-        </style>
-    </section>
-
-    <section class="slide">
-        <h2>Что за Ketnipz?</h2>
-        <p>Кетнипз - розовая фасолька. Он — герой коротких,
-           но жизненных комиксов, которые рисует 18-летний художник из Англии.
-           Кетнипз пользуется популярностью в историях инстаграма и постепенно проникает в массовую культуру.
-           Гарри Хэмбли придумал Фасольку Кетнипз, когда ему было 17, после того как завёл инстаграм.
-        </p>
-        <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
-    </section>
-
-    <section class="slide">
-        <h2>Что за Ketnipz?</h2>
-        <div class="columns two">
-            <figure>
-                <blockquote>
-                    <p>Название на самом деле ничего особо не значит, просто оно звучит весело и сильно отличается от типичных названий.</p>
-                </blockquote>
-                <figcaption>(c) Гарри Хэмбли, автор Кетнипза</figcaption>
-            </figure>
-            <img class="ketnipz" src="pictures/ketnipz.jpg" alt="">
-            <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
-        </div>
-        <style>
-            .ketnipz {
-                width: 100%;
+            .slide div.wrap {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                align-content: center;
+                justify-content: space-between;
             }
+
+            .picture {
+                width: 15rem;
+                height: 20rem;
+                object-fit: cover;
+            }
+
+            .picture2 {
+                width: 15rem;
+                height: 17rem;
+                object-fit: cover;
+            }
+
+            .garry {
+                height: 20rem;
+            }
+
+            .p-border {
+                border: 3px solid #f0aaa7;
+            }
+
+            .cent {
+                text-align: center;
+            }
+
+            .center-clm {
+                justify-items: center;
+            }
+            .pl {
+                color: #ff6574;
+                margin-bottom: 0.5rem;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+
+            .slide a.bigsite {
+                font-weight: bold;
+                color: #f0aaa7;
+                font-size: 5rem;
+            }
+
         </style>
     </section>
 
     <section class="slide">
-        <h2>Почему Кетнипз?</h2>
+        <h2 class="my-header">Ketnipz</h2>
+        <div class="wrap">
+            <img class="picture p-border" src="pictures/k2.jpg" alt="">
+            <img class="picture" src="pictures/ketnipz.jpg" alt="">
+            <div class="garry">
+                <img class="picture2" src="pictures/k3.png" alt="">
+                <p class="cent">Гарри Хэмбли</p>
+            </div>
+            
+        </div>
+        
+    </section>
+
+    <section class="slide">
+        <h2 class="my-header">Почему Ketnipz</h2>
         <div class="columns two">
             <figure>
                 <blockquote>
@@ -139,7 +182,7 @@
                 <figcaption>(c) Наша команда</figcaption>
             </figure>
             <img class="mem" src="pictures/mem.jpg" alt="">
-            <a href="https://dmstudio.now.sh/" class="game-link-2">https://dmstudio.now.sh/</a>
+<!--             <a href="https://dmstudio.now.sh/" class="game-link-2">https://dmstudio.now.sh/</a> -->
         </div>
         <style>
             .mem {
@@ -149,14 +192,13 @@
     </section>
 
     <section class="slide">
-        <h2>Ближе к сути</h2>
+        <h2 class="my-header">Ближе к сути</h2>
         <div class="columns two">
             <ul>
                 <li>ЛОВИ продукты из списка покупок</li>
                 <li>НЕ ЛОВИ продукты НЕ из списка покупок</li>
             </ul>
             <img class="mem" src="pictures/walking.gif" alt="">
-            <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
         </div>
         <style>
             .mem {
@@ -166,54 +208,37 @@
     </section>
 
     <section class="slide">
-        <h2>Геймплей</h2>
-        <video width="640" height="360" controls>
-            <source src="pictures/gameplay.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            Use link <a href="http://dmstudio.now.sh">http://dmstudio.now.sh</a>
-        </video>
-        <a href="https://dmstudio.now.sh/" class="game-link-2">https://dmstudio.now.sh/</a>
+        <h2 class="my-header">Let's play</h2>
+        <div class="columns center-clm">
+            <div class="pl">playketnipz.ru</div>
+            <img class="mem2 p-border" src="pictures/mem3.png" alt="">
+        </div>
         <style>
-            .mem {
-                width: 100%;
+            .mem2 {
+                width: 40%;
             }
         </style>
     </section>
 
     <section class="slide">
-        <h2>Что дальше?</h2>
-        <div class="columns two">
-            <ol>
-                <li>Динамический список продуктов</li>
-                <li class="next">Мультиплеер</li>
-                <li class="next">(ахах)Редизайн</li>
-                <li class="next">Премиум-магазин<span class="next">, скины</span><span class="next">, донаты</span></li>
-            </ol>
-            <img class="todo" src="pictures/todo.png" alt="">
-            <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
+
+        <div class="columns center-clm">
+
+        <a href="https://playketnipz.ru/" class="bigsite">playketnipz.ru</a>
+
         </div>
-        <style>
-            .todo {
-                width: 90%;
-            }
-        </style>
+    
     </section>
 
     <section class="slide">
         <h2>Спасибо за уделенное время! Ждем ваши вопросы!</h2>
         <img class="dance" src="pictures/dance.gif" alt="">
-        <a href="https://dmstudio.now.sh/" class="game-link">https://dmstudio.now.sh/</a>
         <style>
             .dance {
                 height: 70%;
             }
         </style>
     </section>
-
-    <!--<footer class="badge">-->
-        <!--<a href="https://github.com/shower/shower">Fork me on GitHub</a>-->
-    <!--</footer>-->
-
     <div class="progress"></div>
 
     <script src="shower/shower.min.js"></script>
